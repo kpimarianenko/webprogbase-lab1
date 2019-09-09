@@ -6,29 +6,42 @@
     <title>Тут може бути ваша назва</title>
     <meta name="description" content="Lab 1. Beggining of my coursework">
     <meta name="author" content="<Marianenko Roman>">
+    <link href="stylesheets/skybox.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div id="header">
-        <h1>Users</h1>
+    <div class="header">
+        <p><img class="logo" src="pics/logo.jpg" style="height: 40px; width: 36px"> SkyBox | Користувачі</p>
     </div>
 
-    <div id="menu">
+    <div class="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="users.html">Users</a></li>
-            <li><a href="bands.html">Bands</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a class="button" href="index.html">Home</a></li>
+            <li><a class="button" href="users.html">Users</a></li>
+            <li><a class="button" href="bands.html">Bands</a></li>
+            <li><a class="button" href="about.html">About</a></li>
         </ul>
     </div>
 
-    <div id="content">
-        <p>
-            Сайт створено для пошуку аудіоматеріалів. Всі права захищені. Все що ви скажете може бути використано проти
-            вас.
-            Дякуємо за розуміння!
-        </p>
+    <div class="content">
+        <table border="1px">
+            <tr>
+                <th>id</th>
+                <th>Username</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>Роман Мар'яненко</td>
+                <td><a href="users/1.html">hacker2001</a></td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>Стів Джобс</td>
+                <td><a href="users/1.html">android_one_love</a></td>
+            </tr>
+        </table>
     </div>
 
 </body>
