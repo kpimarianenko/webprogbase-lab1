@@ -2,9 +2,13 @@ body {
     width: 1200px;
     margin: auto;
     margin-top: 10px;
-    background: url(../pics/background.jpg) no-repeat;
+    background: url(../pics/background.jpg) no-repeat fixed;
     background-size: 100%;
     background-color: #03d7fc;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .header {
@@ -55,11 +59,21 @@ table {
     bottom: 378px;
 }
 
+.content > .bio {
+    width: 780px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #d68bcd;
+    border: 3px solid #c827b5;
+}
+
 .button {
     text-decoration: none;
     height: 50px;
     width: 150px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     padding: 3px;
     display: block;
     margin-left: 0;
@@ -78,4 +92,33 @@ table {
     border: 3px solid black;
     height: 46px;
     width: 146px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+}
+
+audio {
+    float: right;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.song {
+    margin-top: 0;
+    border-radius: 100px;
+    background: #f7f7f7;
+    font-size: 47px;
+    font: bold;
+    padding: 7px;
+    padding-left: 14px;
+    border: 1px solid black;
+}
+
+.bandphoto {
+    max-width: 760px;
+    margin: auto;
+    width: 100%;
 }
