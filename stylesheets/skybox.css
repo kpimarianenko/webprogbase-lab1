@@ -3,7 +3,7 @@ body {
     margin: auto;
     margin-top: 10px;
     background: url(../pics/background.jpg) no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
     background-color: #03d7fc;
 }
 
@@ -12,12 +12,13 @@ ul {
 }
 
 .header {
+    margin: 0;
+    margin-bottom: 5px;
     padding: 5px;
     border: 3px solid black;
     background: linear-gradient(to right, white, #f5dedc);
     border-radius: 20px;
     font-size: 50px;
-    margin: 0;
 }
 
 .header > p {
@@ -35,35 +36,33 @@ table {
 }
 
 .menu {
-    margin-top: 10px;
-    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: 3px solid black;
     background: linear-gradient(to top right, #f7cc86, #eda837);
     border-radius: 20px;
-    width: 239px;
+    width: 240px;
+    height: 100%;
     font-size: 50px;
     font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
 }
 
 .content {
+    height: 100%;
     padding: 10px;
-    margin-top: 10px;
     border: 3px solid black;
     background: linear-gradient(to top right, #a3f5a2, #61ab60);
     border-radius: 20px;
-    width: 919px;
+    width: 923px;
     font-size: 25px;
     font-family: 'Times new roman';
     position: relative;
-    float: right;
-    bottom: 378px;
 }
 
 .content > .bio {
-    width: 780px;
+    width: 85%;
     margin: auto;
     margin-bottom: 30px;
-    padding: 10px;
     background-color: #d68bcd;
     border: 3px solid #c827b5;
 }
@@ -73,10 +72,10 @@ table {
     height: 50px;
     width: 150px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 3px;
     display: block;
-    margin-left: 0;
     border: 1px solid black;
     background-color: blue;
     color: white;
@@ -94,7 +93,8 @@ table {
     width: 146px;
 }
 
-.avatar {
+.user_avatar {
+    margin-right: 20px;
     height: 200px;
     width: 200px;
 }
@@ -118,7 +118,20 @@ audio {
 }
 
 .bandphoto {
-    max-width: 760px;
-    margin: auto;
-    width: 100%;
+    max-width: 92%;
+    width: 92%;
+    margin: 4%;
+    margin-bottom: 0%;
+}
+
+.user_info {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    /* justify-content: space-around; */
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
 }
